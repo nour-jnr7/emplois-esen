@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listes des Groupes - ESEN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f8fb;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #0055a5;
+            color: white;
+            padding: 40px 20px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        main {
+            padding: 40px 20px;
+        }
+            .group-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .group-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .group-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 14px rgba(0,0,0,0.15);
+            background-color: #f0f7ff;
+        }
+        .group-card h2 {
+            margin: 0;
+            font-size: 20px;
+            color: #0055a5;
+        }
+        .group-card p {
+            margin-top: 8px;
+            font-size: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📘 Listes des Groupes</h1>
+        <p>Choisissez votre groupe pour télécharger votre emploi du temps</p>
+    </header>
+
+    <main>
+        <div class="group-list">
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j58fdbi416fjbcd1mnack713tg4.pdf" class="group-card">
+                <h2>L1 BC</h2>
+                <p>Licence 1 Business Computing</p>
+            </a>
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j59ergt2114b1ris1pjs564q24.pdf" class="group-card">
+                <h2>L2 BI</h2>
+                <p>Licence 2 Business Intelligence</p>
+            </a>
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j59esci42br1mntrv81gri1und4.pdf" class="group-card">
+                <h2>L2 BIS</h2>
+                <p>Licence 2 Business Information Systems</p>
+            </a>
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j59esci41o3q1rhj1qkn7bq1cq5.pdf" class="group-card">
+                <h2>L2 EB</h2>
+                <p>Licence 2 E-Business</p>
+            </a>
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j59evqr917gd127c1cah1iqk6cf4.pdf" class="group-card">
+                <h2>L3 BI</h2>
+                <p>Licence 3 Business Intelligence</p>
+            </a>
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j59evqradd2mjj1moo1j9je3g5.pdf" class="group-card">
+                <h2>L3 BIS</h2>
+                <p>Licence 3 Business Information Systems</p>
+            </a>
+            <a href="https://esen.rnu.tn/portail/medias/documents/annonces/p1j59evqra1i1uhtgemv16kk2uq6.pdf" class="group-card">
+                <h2>L3 EB</h2>
+                <p>Licence 3 E-Business</p>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
